@@ -48,11 +48,13 @@ header h1 {
     border-radius: 5px;
 }
 
-.profile {
-    flex: 1;
-    min-width: 300px;
-    text-align: center;
-    margin-bottom: 20px;
+.profile img {
+    width: 350px;
+    height: 350px;
+    border-radius: 0;        /* Remove rounded corners completely */
+    object-fit: cover;
+    border: none;            /* Remove the border */
+    background-color: #000;  /* Add black background */
 }
 
 .profile img {
